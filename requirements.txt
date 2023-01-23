@@ -1,0 +1,16 @@
+jupyter-book
+matplotlib
+numpy
+
+
+```{admonition} Proposition
+Si $u_n$ est une suite 
+On désigne par $Re(u_n)$ (resp. $Im(u_n)$) la partie réelle (resp. imaginaire) de
+$u_n$. Alors, on a
+
+$$
+\sum u_n \mbox{ converge} \Leftrightarrow  Re(u_n) \mbox{ et } Im(u_n) \mbox{ convergent} \Leftrightarrow \sum \overline{u_n} \mbox{ converge}
+$$
+
+
+```

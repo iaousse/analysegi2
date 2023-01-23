@@ -1,0 +1,28 @@
+# Table of content
+# Learn more at https://jupyterbook.org/customize/toc.html
+#
+- file: intro
+- file: integration
+  sections:
+    - file: fe
+    - file: fcm
+    - file: pptint
+    - file: sumreiman
+    - file: fcmint
+    - file: exo1
+- file: integrationd
+  sections:
+    - file: pintfc
+    - file: methodcalp
+    - file: exo2
+- file: integrationq
+  sections:
+    - file: def
+    - file: exo3
+
+- file: Seriesc
+  sections:
+    - file: series
+
+    - file: exo4
+
