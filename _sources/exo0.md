@@ -93,18 +93,4 @@ Comparer les fonctions suivantes :
 
 
 
-Étudier si les fonctions suivantes sont dérivables et $C^1$ sur $\mathbb{R}$:
-
-$$
-f(x)=\left\{\begin{array}{ll}
-x^2\sin\left(\frac 1x\right)&x\neq 0\\
-0&x=0
-\end{array}\right.\quad\quad\quad
-g(x)=\left\{\begin{array}{ll}
-x^3\sin\left(\frac 1x\right)&x\neq 0\\
-0&x=0.
-\end{array}\right.
-$$
-
-
 

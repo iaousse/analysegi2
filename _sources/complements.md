@@ -245,7 +245,8 @@ Seul le premier équivalent a un intérêt!!
 
 - Lien entre les relations de comparaison
 
-On se place au voisinage d’un point $a$.
+    On se place au voisinage d’un point $a$.
+
     - Si $f(x) \sim g(x)$ alors $f(x) = O(g(x))$.
     - Si $f(x) \sim g(x)$ et $f(x) = o(h(x))$ alors $g(x) = o(h(x))$.
     - Si $f(x) \sim g(x)$ et    $h(x) = o(f(x))$ alors $h(x) = o(g(x))$
