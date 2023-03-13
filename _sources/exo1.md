@@ -2,50 +2,25 @@
 
 ## Exercice 1
 
-1- Soient $m, n \in \mathbb Z$, et $f$ une application telle que :
+Soient $m, n \in \mathbb Z$, et $f$ une application telle que :
 
 $$
 \begin{array}{ccccc}
 f & : & [m, n] & \to & \mathbb R \\
- & & x & \mapsto & E(x)\\
+ & & x & \mapsto & \lfloor x \rfloor\\
 \end{array}
 $$
 
-Calculer 
+1. Vérifier que $f$ est une fonction en escalier et donner deux subdivisions adaptées à $f$.
+2. Calculer 
 
 $$
 \int_{[m, n]} f
 $$
 
+
 ## Exercice 2
 
-Soit $f$ une application telle que :
-
-$$
-\begin{array}{ccccc}
-f & : & [-1, 2] & \to & \mathbb R \\
- & & x & \mapsto &  x|x|\\
-\end{array}
-$$
-
-
-Calculer 
-
-$$
-\int_{[-1, 2]} f dx
-$$
-
-## Exercice 3
-
-Soit $a\in \mathbb R$: 
-Soit fonction $f_a$ qui, pour tout $x \in [0, 1]$, définie par $f_a(x) = min(a, x)$.
-
-Calculer 
-
-$$\int_{[0, 1]} f_a
-$$
-
-## Exercice 4
 Soit $f$ la fonction définie sur $[0, 4]$ par
 
 $$
@@ -59,24 +34,31 @@ f(x) =
 \end{cases}
 $$
 
-1. Vérifier que $f$ est une fonction en escalier ?
-2. Donner deux subdivisions adaptées à $f$ (notees $\sigma$ et $\sigma^{'}$).
-3. Calculer $I(\sigma, f)$ et $I(\sigma^{'}, f)$.
+1. Vérifier que $f$ est une fonction en escalier.
+2. Donner deux subdivisions adaptées à $f$ (notées $\sigma$ et $\sigma'$).
+3.  Calculer $I(\sigma, f)$ et $I(\sigma', f)$.
 
+## Exercice 3
+
+Soit $f:[a,b]\to\mathbb{R}$ une fonction en escalier. On définit la fonction $h:[a,b]\to\mathbb{R}$ associée à $f$ par :
+
+$$
+h(x) = \begin{cases} f(x) & \text{si } x\in[a,c[\\ f(c) & \text{si } x\in[c,b] \end{cases}
+$$
+
+où $c\in[a,b]$ est une constante.
+
+1. Montrez que $h$ est une fonction en escalier.
+2. Proposer une subdivision adaptée à $h$.
+3. Montrez que si $f$ est continue en $c$, alors $h$ est continue en $c$.
+
+
+## Exercice 4
+Soit $f$ une fonction en escalier sur $[a,b]$. Montrer que si $f$ est continue sur $[a, b]$ alors $f$ est constante sur $[a, b]$.
 
 ## Exercice 5
+Soit $f$ une fonction en escalier sur $[a, b]$ et $\sigma_1$, $\sigma_2$ deux subdivisions adaptées à $f$. Montrer que $\sigma_1\cap \sigma_2$ est une subdivision adaptée à $f$.
 
 
-Soient les fonctions définies sur $\mathbb R$,
-
-$$
-f(x)=x \mbox{ et } g(x)= x^2
-$$
-
-Est-ce que ces fonctions sont continue par morceaux sur tout intervalle ferme borne de $\mathbb R$?
-
-En utilisant les sommes de Riemann, calculer les intégrales
-
-$$
-\int_0^1 f(x)dx, \int_1^2 g(x)dx
-$$
+## Exercice 6
+Soit $f$ la fonction définie sur $[0, 2]$ par $f(x) = \cos(\frac{\pi}{2}[x^2]), \forall x \in [0, 2]$. Montrer que $f$ est une fonction en escalier sur $[0,2]$ et calculer son intégrale.
